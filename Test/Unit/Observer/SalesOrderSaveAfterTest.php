@@ -20,6 +20,10 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Exception;
 
+/**
+ * TEST
+ */
+
 class SalesOrderSaveAfterTest extends TestCase
 {
     /**
