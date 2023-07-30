@@ -21,13 +21,13 @@ use Psr\Log\LoggerInterface;
 use Exception;
 
 /**
+ * CHANGES
  * Change -1
  * Change 1
  * Change 3
  * Change 4
  * Change 5
  * NEW ONE
- * UPDATE
  */
 
 class SalesOrderSaveAfterTest extends TestCase
