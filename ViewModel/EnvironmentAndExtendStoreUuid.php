@@ -22,6 +22,7 @@ class EnvironmentAndExtendStoreUuid implements
         // This is for custom mapping of Integration environments to Extend environments
         'dev' => 'development',
         'prod' => 'production',
+        'test' => 'test',
     ];
 
     private StoreIntegrationRepositoryInterface $storeIntegrationRepository;
