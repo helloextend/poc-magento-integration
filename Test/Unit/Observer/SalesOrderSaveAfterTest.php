@@ -28,6 +28,7 @@ use Exception;
  * Change 4
  * removed change
  * second
+ * add a new comment
  */
 
 class SalesOrderSaveAfterTest extends TestCase
