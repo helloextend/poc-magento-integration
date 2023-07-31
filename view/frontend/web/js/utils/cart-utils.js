@@ -6,6 +6,7 @@ define(['Magento_Customer/js/customer-data'], function (customerData) {
   'use strict'
 
   const getCartItems = function () {
+    console.log('getCartItems')
     return customerData.get('cart')().items ?? []
   }
 
