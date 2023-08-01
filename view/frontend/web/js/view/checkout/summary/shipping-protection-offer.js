@@ -118,7 +118,7 @@ define([
           environment: window.ExtendConfig.environment,
         })
 
-        console.log('ExtendMagento', ExtendMagento)
+        console.log('[Config] - ExtendMagento', ExtendMagento)
 
         // Update SP on cart changes
         customerData.get('cart').subscribe(function (cart) {
