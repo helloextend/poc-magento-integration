@@ -14,6 +14,7 @@ define([
 
   function normalize() {
     try {
+      console.log('Normalize cart')
       const cartItems = customerData.get('cart')().items
       if (cartItems.length > 0) {
         ExtendMagento.normalizeCart({

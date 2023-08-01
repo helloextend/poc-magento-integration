@@ -118,6 +118,8 @@ define([
           environment: window.ExtendConfig.environment,
         })
 
+        console.log('ExtendMagento', ExtendMagento)
+
         // Update SP on cart changes
         customerData.get('cart').subscribe(function (cart) {
           const items = ExtendMagento.formatCartItemsForSp(cart.items)
